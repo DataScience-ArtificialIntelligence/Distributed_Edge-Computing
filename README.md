@@ -57,6 +57,6 @@ java "-Djava.security.policy=client.policy" -cp "target/p2p-file-sharing-1.0.jar
 
 ## Links
 
-[Link to report](https://drive.google.com/file/d/1EnGT4l5aFFk4n5-gPtrUEaNzAD8RkBaM/view?usp=drive_link)  
+[Link to report](https://drive.google.com/file/d/1JpLNH9WYmP9kZZVV6KxdMLz7zsjYI0H_/view?usp=sharing)  
 
 
