@@ -47,13 +47,36 @@ For Linux/Mac users, use colons instead of semicolons for the classpath separato
 java "-Djava.security.policy=client.policy" -cp "target/p2p-file-sharing-1.0.jar:target/classes" com.p2p.client.PeerClient Peer1
 ```
 
+To configure using Docker, follow these steps:
+
+###  Step 1: Pull the Docker Image
+
+Pull the image from Docker Hub:
+```bash
+docker pull hitikadwani0902/p2p-file-sharing:latest
+
+```
+
+###  Step 2: Run the Main Application
+To start the main server/application:
+```bash
+docker run -d --name p2p-server hitikadwani0902/p2p-file-sharing:latest
 
 
+```
+### Step 3: Start Peer Clients
+To run a peer client (e.g., Peer1):
+```bash
+docker run -it --rm \
+  --name peer1 \
+  -e PEER_NAME=Peer1 \
+  hitikadwani0902/p2p-file-sharing:latest \
+  java "-Djava.security.policy=client.policy" \
+  -cp "target/p2p-file-sharing-1.0.jar:target/classes" \
+  com.p2p.client.PeerClient Peer1
 
 
-
-
-
+```
 
 ## Links
 
