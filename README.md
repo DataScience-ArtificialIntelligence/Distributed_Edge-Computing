@@ -16,7 +16,7 @@ Network dataset : [Deezer Networks](https://snap.stanford.edu/data/gemsec-Deezer
 
 ## Project Setup
 
-To set up this project locally, follow these steps:
+### To set up this project locally, follow these steps:
 
 ### Step 1: Clone the Repository
 
@@ -47,7 +47,7 @@ For Linux/Mac users, use colons instead of semicolons for the classpath separato
 java "-Djava.security.policy=client.policy" -cp "target/p2p-file-sharing-1.0.jar:target/classes" com.p2p.client.PeerClient Peer1
 ```
 
-To configure using Docker, follow these steps:
+### To configure using Docker, follow these steps:
 
 ###  Step 1: Pull the Docker Image
 
