@@ -6,8 +6,7 @@ ABHIJIT SINGH - 22BDS054
 SURYANSH AYUSH - 22BDS057
 
 ## Overview
-This project presents a scalable and efficient peer-to-peer system built with Java RMI, Spring Boot, and Swing. Features like file partitioning, edge computing, and Docker containerization improve performance and portability. The system serves as a reusable service for distributed tasks, with future enhancements planned for security, fault tolerance, and collaborative peer interaction.
-
+This project presents a hybrid distributed system that combines edge computing and cloud infrastructure to efficiently process large-scale graph data. By using Java RMI for peer-to-peer communication, the system enables low-latency file access from the nearest peer, while Spring Boot manages coordination from a central cloud server. Files are partitioned into chunks using Java NIO with memory-mapped buffers, allowing parallel transfer with metadata for integrity and recovery. A Swing-based GUI provides real-time progress updates, and the project is managed using Maven and deployed via Docker containers for cross-platform support. Integrated into the existing Deezer Networks platform, this system is scalable, fault-tolerant, and optimized for real-world distributed graph processing applications.
 
 ## Dataset
 
