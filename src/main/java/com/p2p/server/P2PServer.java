@@ -1,23 +1,4 @@
-//package com.p2p.server;
-//import org.springframework.boot.SpringApplication;
-//import org.springframework.boot.autoconfigure.SpringBootApplication;
-//import java.rmi.registry.LocateRegistry;
-//import java.rmi.registry.Registry;
-//
-//@SpringBootApplication
-//public class P2PServer {
-//    public static void main(String[] args) {
-//        try {
-//            Registry registry = LocateRegistry.createRegistry(1099);
-//            PeerRegistry peerRegistry = new PeerRegistry();
-//            registry.rebind("PeerRegistry", peerRegistry);
-//            System.out.println("Peer-to-Peer Registry running on port 1099...");
-//            SpringApplication.run(P2PServer.class, args);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
-//}
+
 package com.p2p.server;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
