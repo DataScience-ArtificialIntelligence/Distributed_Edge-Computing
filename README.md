@@ -22,7 +22,7 @@ To set up this project locally, follow these steps:
 
 
 ```bash
-git clone https://github.com/DataScience-ArtificialIntelligence/CardioVascular_Disease_Detection.git
+git clone https://github.com/DataScience-ArtificialIntelligence/Distributed_Edge-Computing.git
 ```
 
 ### Step 2: Build the project
