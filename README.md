@@ -10,7 +10,7 @@ This project presents a hybrid distributed system that combines edge computing a
 
 ## Dataset
 
-Network dataset : [Deezer Networks](https://snap.stanford.edu/data/Deezer.).
+Network dataset : [Deezer Networks](https://snap.stanford.edu/data/gemsec-Deezer.html).
 
 
 
